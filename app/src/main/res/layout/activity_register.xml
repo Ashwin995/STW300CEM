@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    tools:context=".ui.RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="Welcome to Workmate "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="Place to meet your passion"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="Register "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="Full Name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etFullname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/custom_fav"
+        android:hint="Enter Full name"
+        android:inputType="textPersonName"
+        android:paddingLeft="5dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="Email"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/custom_fav"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="Phone No."
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/custom_fav"
+        android:hint="Enter Phone No."
+        android:inputType="phone"
+        android:paddingLeft="5dp"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10sp"
+        android:text="Password"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/custom_fav"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/etReenterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/custom_fav"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textSize="12dp" />
+
+    <CheckBox
+        android:id="@+id/chkPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:textSize="10dp" />
+
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Already Registered?" />
+
+    <TextView
+        android:id="@+id/tvBackLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/goto_login" />
+
+</LinearLayout>

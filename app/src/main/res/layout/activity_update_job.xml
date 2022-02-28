@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.AddJobActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_imageview"
+            android:scaleType="fitXY"
+            android:src="@drawable/img" />
+
+        <EditText
+            android:id="@+id/etCompany"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_fav"
+            android:gravity="center_vertical"
+            android:hint="Company Name"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/etJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_fav"
+            android:gravity="center_vertical"
+            android:hint="Job Title"
+            android:paddingLeft="5dp" />
+
+        <EditText
+            android:id="@+id/etExperience"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_fav"
+            android:gravity="top|left"
+            android:hint="Experience Required"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etCompanyDetails"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_fav"
+            android:gravity="top|left"
+            android:hint="Company Details"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etJobLevel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:background="@drawable/custom_fav"
+                android:hint="Job Level : ex (Junior, Senior ...)" />
+
+            <EditText
+                android:id="@+id/etJobTime"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_fav"
+                android:hint="Job Time : ex (Full time, Part time)" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnUpdateJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_button"
+            android:text="Update"
+
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</ScrollView>
