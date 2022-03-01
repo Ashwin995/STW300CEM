@@ -44,7 +44,15 @@
         <entry key="..\:/AndroidProjects/app/src/main/res/menu/menu_dashboard.xml" value="0.221875" />
         <entry key="..\:/AndroidProjects/app/src/main/res/menu/nav_menu.xml" value="0.20677083333333332" />
         <entry key="..\:/AndroidProjects/wearables/src/main/res/layout/activity_login.xml" value="0.11277173913043478" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/activity_add_job.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/activity_dashboard.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/activity_dboard.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/activity_job.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/activity_register.xml" value="0.1814814814814815" />
         <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/app/src/main/res/layout/fragment_profile.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/wearables/src/main/res/drawable/custom_wear_button.xml" value="0.1" />
+        <entry key="..\:/Users/Ashwin/Desktop/AndroidProjects/wearables/src/main/res/layout/activity_login.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -14,8 +14,8 @@ class WorkMateTest {
     @Test
     fun login() = runBlocking {
 
-        val username = "Ashwin@gmail.com"
-        val password = "Ash123"
+        val username = "Hari@gmail.com"
+        val password = "Hari234"
         val userRepo = UserRepository()
         val response = userRepo.login(username, password)
         val expectedResult = true
@@ -39,9 +39,9 @@ class WorkMateTest {
     @Test
     fun register() = runBlocking {
 
-        val fullname = "Ashwin Tamang"
+        val fullname = "Sita Lama"
         val phone = "9843910041"
-        val email = "Ashwin@gmail.com"
+        val email = "Sita@gmail.com"
         val password = "Ash123"
         val user = User(name = fullname, email = email, phone = phone, password = password)
         val userRepo = UserRepository()

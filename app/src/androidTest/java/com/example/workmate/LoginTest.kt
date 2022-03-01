@@ -23,12 +23,12 @@ class LoginTest {
     @Test
     fun login() {
         onView(withId(R.id.etEmail)).perform(clearText())
-        onView(withId(R.id.etEmail)).perform(typeText("arjun@gmail.com"))
+        onView(withId(R.id.etEmail)).perform(typeText("Hari@gmail.com"))
         closeSoftKeyboard()
         Thread.sleep(5000)
 
         onView(withId(R.id.etPassword)).perform(clearText())
-        onView(withId(R.id.etPassword)).perform(typeText("arjun777"))
+        onView(withId(R.id.etPassword)).perform(typeText("Hari234"))
         closeSoftKeyboard()
         Thread.sleep(5000)
         closeSoftKeyboard()

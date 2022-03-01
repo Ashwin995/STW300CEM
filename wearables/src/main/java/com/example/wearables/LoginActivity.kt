@@ -14,11 +14,17 @@ class LoginActivity : Activity() {
 
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        if (binding.etEmail.text.equals("asbin@gmail.com")
-            && binding.etPassword.text.equals("asbin")
-        ) {
-            Toast.makeText(this, "Welcome Asbin", Toast.LENGTH_SHORT).show()
+
+            binding.btnLogin.setOnClickListener{
+                if (binding.etEmail.text.toString()=="hari@gmail.com"
+                    && binding.etPassword.text.toString()=="Hari234"){
+                Toast.makeText(this, "Welcome Hari", Toast.LENGTH_SHORT).show()
+            }
+                else{
+                    Toast.makeText(this, "Access denied", Toast.LENGTH_SHORT).show()
+                }
         }
+
 
     }
 }

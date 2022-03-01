@@ -8,9 +8,9 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ServiceBuilder {
 
-//    private const val BASE_URL = "http://10.0.2.2:5000/api/"
+    //private const val BASE_URL = "http://10.0.2.2:5000/api/"
     private const val BASE_URL = "http://192.168.100.8:5000/api/"
-//    private const val BASE_URL = "http://127.0.0.1:5000/api/"
+   //private const val BASE_URL = "http://localhost:5000/api/"
 
     var token: String? = null
     var jid: String? = null
